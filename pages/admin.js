@@ -82,7 +82,7 @@ export default function Admin() {
             minWidth: '300px',
           }}>
             <h1 style={{ color: '#d4a574', marginBottom: 24 }}>🍔 Dashboard Admin</h1>
-            <p style={{ color: '#666, marginBottom: 20 }}>Ingresa tu PIN para ver los pedidos</p>
+            <p style={{ color: '#666', marginBottom: 20 }}>Ingresa tu PIN para ver los pedidos</p>
             <input
               type="password"
               inputMode="numeric"
