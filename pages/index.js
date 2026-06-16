@@ -274,7 +274,7 @@ export default function Home() {
             <p><strong>Número de pedido:</strong> #{pedidoConfirmado.id}</p>
             <p><strong>Cliente:</strong> {pedidoConfirmado.cliente_nombre}</p>
             <p><strong>Total:</strong> ${pedidoConfirmado.total.toLocaleString()}</p>
-            <p style={{ fontSize: 14, color: '#999, marginTop: 20 }}>
+            <p style={{ fontSize: 14, color: '#999', marginTop: 20 }}>
               Recibirás una notificación por WhatsApp cuando el restaurante confirme tu pedido.
             </p>
             <div className="whatsapp">
